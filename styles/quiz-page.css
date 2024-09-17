@@ -1,0 +1,20 @@
+.correct-color {
+    color: green; 
+}
+
+.incorrect-color {
+    color: red;
+}
+
+.no-display {
+    display: none; 
+}
+
+.answer-check {
+    padding: 5px 15px; 
+    margin-left: 5px;
+}
+
+.quiz-name {
+    font-weight: bold;
+}

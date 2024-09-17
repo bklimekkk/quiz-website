@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Quiz</title>
+    <link rel="stylesheet" href="styles/add-question.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+  </head>
+  <body>
+    <div class="quiz-name-section">
+      <div class="quiz-name-inner-section">
+        <div class="flex"></div>
+        <div class="quiz-name-inner-box">
+          <p class="quiz-name-text">Enter quiz name</p>
+          <p
+            class="name-error-message js-name-error-message error-message no-display"
+          >
+            You have to enter name of the quiz
+          </p>
+          <input
+            type="text"
+            placeholder="Quiz name"
+            class="quiz-name-input js-quiz-name-input"
+          />
+          <button class="name-confirm-button js-name-confirm-button">
+            Confirm
+          </button>
+        </div>
+        <div class="flex"></div>
+      </div>
+    </div>
+    <div class="quiz-section js-quiz-section no-display">
+      <div class="quiz-name js-quiz-name"></div>
+      <div class="question-number js-question-number"></div>
+      <input
+        type="text"
+        placeholder="enter question"
+        class="enter-question-input js-enter-question-input"
+      />
+      <button class="back-to-type-choice-button no-display">
+        Back to answer choice
+      </button>
+      <button class="abcd-type-question-option js-abcd-type-question-option">
+        Abcd answer
+      </button>
+      <button class="text-type-question-option js-text-type-question-option">
+        Text answer
+      </button>
+      <button class="finish-button js-finish-button">Finish</button>
+      <br />
+      <div class="question-section js-question-section"></div>
+      <br />
+      <p
+        class="next-question-error-message js-next-question-error-message error-message no-display"
+      ></p>
+      <button class="next-question js-next-question no-display">
+        Next question
+      </button>
+    </div>
+    <div class="after-quiz-seciton js-after-quiz-section no-display">
+      <p class="thank-you-label js-thank-you-label">
+        Thank you for creating this quiz
+      </p>
+      <button class="go-to-quizzes-button js-go-to-quizzes-button">
+        <a href="main-page.html">Go to quizzes</a>
+      </button>
+    </div>
+    <script src="scripts/quizzes.js"></script>
+    <script src="scripts/add-question.js"></script>
+  </body>
+</html>

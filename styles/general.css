@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+}
+
+button {
+    border: none; 
+    background-color: black;
+    color: white; 
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+input {
+   border: none; 
+   background-color: rgb(222, 222, 222); 
+   padding: 5px;
+   border-radius: 10px;
+   margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+    display: inline-block; 
+}

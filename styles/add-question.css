@@ -1,0 +1,38 @@
+input {
+    display: block;
+}
+.no-display {
+    display: none;
+}
+
+.error-message {
+    color: red;
+}
+
+.flex {
+    flex: 1;
+}
+
+.quiz-name-inner-section {
+    display: flex;
+}
+
+.quiz-name-text {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.quiz-name-inner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.change-quiz-name-button {
+    margin-bottom: 20px;
+}
+
+.correct-answer-label {
+    margin-bottom: 0;
+}
